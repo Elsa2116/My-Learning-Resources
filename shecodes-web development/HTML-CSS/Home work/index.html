@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometown and Name Prompt</title>
+    <script>
+        function getUserInfo() {
+            // Prompt for hometown
+            let hometown = prompt("What is your hometown?");
+            alert("Your hometown is: " + hometown);
+
+            // Prompt for first and last name
+            let firstName = prompt("What is your first name?");
+            let lastName = prompt("What is your last name?");
+            alert("Your full name is: " + firstName + " " + lastName);
+        }
+    </script>
+</head>
+<body onload="getUserInfo()">
+    <h1>Welcome!</h1>
+    <p>Please check your alerts for your hometown and full name.</p>
+</body>
+</html>
