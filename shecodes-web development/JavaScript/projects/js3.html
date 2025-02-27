@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask for Country</title>
+    <script>
+        function askForCountry() {
+            // Ask the user for their country
+            const country = prompt("What country are you from?");
+
+            // Check if the input is Brazil or Portugal (case insensitive)
+            if (country && (country.toLowerCase() === "brazil" || country.toLowerCase() === "portugal")) {
+                alert("You speak Portuguese");
+            } else {
+                alert("Go learn Portuguese!");
+            }
+        }
+
+        // Call the function
+        window.onload = askForCountry;
+    </script>
+</head>
+<body>
+
+<h1>Welcome to My Web Page!</h1>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheCodes Application</title>
+    <script>
+        function applyNow() {
+            // Ask for the person's first name
+            const firstName = prompt("What is your first name?");
+
+            // Ask for the person's age
+            const age = prompt("How old are you?");
+
+            // Check if age is a valid number and convert it to a number
+            const ageNumber = Number(age);
+
+            // Change the h1 based on the age
+            const h1Element = document.getElementById("welcomeMessage");
+            if (ageNumber >= 18) {
+                h1Element.innerText = Hi, ${firstName}! Welcome to SheCodes!;
+            } else {
+                h1Element.innerText = Sorry, ${firstName}! You cannot join SheCodes.;
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1 id="welcomeMessage">Welcome to SheCodes!</h1>
+<button onclick="applyNow()">Apply Now</button>
+
+</body>
+</html>
