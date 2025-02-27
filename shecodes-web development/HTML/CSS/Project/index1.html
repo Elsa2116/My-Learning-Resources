@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheCodes Application Eligibility</title>
+    <script>
+        function checkEligibility() {
+            // Prompt the user for their age
+            let age = prompt("Please enter your age:");
+
+            // Convert the input to an integer
+            age = parseInt(age);
+
+            // Check if the input is a valid number
+            if (isNaN(age)) {
+                alert("Please enter a valid number for your age.");
+            } else if (age < 18) {
+                alert("You cannot apply.");
+            } else {
+                alert("You can apply to SheCodes.");
+            }
+        }
+    </script>
+</head>
+<body onload="checkEligibility()">
+    <h1>Welcome to SheCodes!</h1>
+    <p>Your eligibility will be checked based on your age.</p>
+</body>
+</html>
