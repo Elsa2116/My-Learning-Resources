@@ -1,0 +1,6 @@
+num = 5
+string_num = str(num)
+concatenated_string = string_num + string_num
+concatenated_int = int(concatenated_string)
+doubled_value = concatenated_int * 2
+print(doubled_value)
