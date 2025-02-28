@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.product-container {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+  position: relative;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+}
+
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.shipping {
+  color: green;
+}
+
+.more-info {
+  color: blue;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.brown {
+  background-color: brown;
+}
+
+.add-to-cart {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-to-cart:hover {
+  background-color: darkgray;
+}
