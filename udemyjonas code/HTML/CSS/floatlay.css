@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #000;
+  padding: 20px;
+  position: relative;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.image {
+  width: 30%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.info {
+  width: 40%;
+}
+
+.details {
+  width: 30%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sale-tag {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.free-shipping {
+  font-size: 14px;
+  color: gray;
+}
+
+.colors {
+  margin: 10px 0;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.add-to-cart {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
