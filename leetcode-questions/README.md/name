@@ -1,20 +1,36 @@
-# SheCodes Web Development Project
+# LeetCode Solved Questions
 
-This is my web development project built as part of the SheCodes learning program. 
-The project demonstrates my understanding of HTML, CSS, and JavaScript, along with the 
-concepts I’ve learned throughout the course.
-## Description
+This repository contains my solutions to various problems from [LeetCode](https://leetcode.com/).
+BY
+(https://leetcode.com/u/Elsa_2116/)
+The questions cover a wide range of topics including algorithms, data structures, dynamic programming, 
+and much more. As I continue solving problems, I will update the repository with new solutions.
 
-This project showcases the skills I've acquired while learning web development through SheCodes.
-The goal was to create a functional and visually appealing website using HTML, CSS, and JavaScript and also python. 
-The project includes various interactive elements and responsive design techniques.
+## Introduction
 
-## Technologies Used
+LeetCode is a platform for practicing coding and preparing for technical interviews. 
+In this repository, you will find my solutions to various coding challenges. 
+The problems are organized into different categories, and each solution is accompanied by explanations 
+and code in the respective programming language.
 
-- HTML
-- CSS
-- JavaScript
-- python
+## Problem Categories
+
+The problems are grouped into the following categories:
+
+- **Array**
+- **String**
+- **Linked List**
+- **Dynamic Programming**
+- **Greedy Algorithms**
+- **Binary Search**
+- **Graph**
+- **Tree**
+- **Recursion**
+
+## Solutions
+
+Each problem is stored in its respective folder named after the problem title, with the following structure:
+
 
 
 
