@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.collage {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.collage img {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.collage img:nth-child(1) {
+  top: 0;
+  left: 0;
+  transform: rotate(-10deg);
+}
+
+.collage img:nth-child(2) {
+  top: 0;
+  right: 0;
+  transform: rotate(10deg);
+}
+
+.collage img:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  transform: rotate(15deg);
+}
+
+.collage img:nth-child(4) {
+  bottom: 0;
+  right: 0;
+  transform: rotate(-15deg);
+}
+
+.collage img:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
