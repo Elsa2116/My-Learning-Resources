@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+        transition: background-color 0.5s, color 0.5s;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        transform: translateY(-10px);
+        transition: transform 0.5s ease-in-out;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header:hover {
+        transform: translateY(0);
+      }
+      main {
+        padding: 20px;
+      }
+      p {
+        display: inline-block;
+        font-size: 18px;
+        transition: transform 0.5s ease-in-out;
+      }
+      p:hover {
+        transform: scale(1.1);
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        animation: fadeIn 2s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* Dark mode styles */
+      .dark-mode {
+        background-color: #222;
+        color: white;
+      }
+      .dark-mode header {
+        background-color: #111;
+      }
+      .dark-mode footer {
+        background-color: #111;
+      }
+
+      /* Toggle button */
+      .toggle-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+      }
+      .toggle-btn:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Project</h1>
+      <button class="toggle-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+    </header>
+    <main>
+      <p>
+        This is a basic HTML structure applying CSS transform and animations for
+        my project.
+      </p>
+    </main>
+    <footer>
+      <p>&copy; 2025 My Project</p>
+    </footer>
+
+    <script>
+      function toggleTheme() {
+        document.body.classList.toggle("dark-mode");
+        let button = document.querySelector(".toggle-btn");
+        if (document.body.classList.contains("dark-mode")) {
+          button.textContent = "☀️ Light Mode";
+        } else {
+          button.textContent = "🌙 Dark Mode";
+        }
+      }
+    </script>
+  </body>
+</html>
