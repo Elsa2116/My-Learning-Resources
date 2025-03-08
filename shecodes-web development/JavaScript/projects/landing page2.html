@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hobby - Football & Web Development</title>
+    <style>
+      /* Global Styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f0f0f0;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        margin-top: 10px;
+      }
+
+      /* Header Styles */
+      header {
+        background: linear-gradient(to right, #007bff, #00c6ff);
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+        transform: scale(1.05);
+      }
+
+      header h1 {
+        font-size: 3rem;
+      }
+
+      header p {
+        font-size: 1.5rem;
+        margin-top: 10px;
+      }
+
+      /* About Section */
+      .about {
+        padding: 40px 20px;
+        text-align: center;
+        background-color: #f5f5f5;
+      }
+
+      .about p {
+        font-size: 1.2rem;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      /* Hobby Section */
+      .hobby {
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .hobby-img {
+        width: 50%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .hobby-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .hobby-content p {
+        font-size: 1.2rem;
+        max-width: 600px;
+      }
+
+      /* Journey Section */
+      .journey {
+        padding: 40px 20px;
+        background-color: gray;
+        text-align: center;
+      }
+
+      .journey-img {
+        width: 150%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .journey-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .journey-content p {
+        font-size: 1.2rem;
+        max-width: 600px;
+      }
+
+      /* Skills Section */
+      .skills {
+        padding: 40px 20px;
+      }
+
+      .skills-content {
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+      }
+
+      .skill {
+        background-color: rgb(44, 105, 180);
+        padding: 20px;
+        border-radius: 8px;
+        width: 45%;
+      }
+
+      .skill h3 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+      }
+
+      .skill ul {
+        list-style-type: none;
+      }
+
+      .skill li {
+        font-size: 1.2rem;
+      }
+
+      /* Contact Section */
+      .contact {
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .contact-btn {
+        background-color: #007bff;
+        color: white;
+        padding: 5px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      .contact-btn:hover {
+        background-color: #0056b3;
+      }
+
+      /* Footer Styles */
+      footer {
+        text-align: center;
+        padding: 10px;
+        background: #007bff;
+        color: white;
+      }
+
+      /* Dark/Light Theme */
+      body.light {
+        background-color: #f0f0f0;
+        color: #333;
+      }
+
+      body.dark {
+        background-color: #333;
+        color: #f0f0f0;
+      }
+
+      .theme-toggle button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .theme-toggle button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="theme-toggle">
+        <button id="toggleBtn">Toggle Dark/Light Theme</button>
+      </div>
+      <h1>Welcome to My Landing Page</h1>
+      <p>Football & Web Development Enthusiast</p>
+    </header>
+
+    <main>
+      <!-- About Me Section -->
+      <section class="about">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm a passionate football player and website developer. I believe
+          that sports and technology are both great ways to challenge myself and
+          grow. Let me take you through my journey!
+        </p>
+      </section>
+
+      <!-- My Hobby Section -->
+      <section class="hobby">
+        <h2>My Hobby: Playing Football</h2>
+        <div class="hobby-content">
+          <img
+            src="C:\Users\user\Desktop\shecodes\neymar.avif"
+            alt="Football Image"
+            class="hobby-img"
+          />
+          <p>
+            Football is not just a game; it's a passion that keeps me active and
+            energized. I play whenever I can to improve my skills and stay fit.
+          </p>
+        </div>
+      </section>
+
+      <!-- My Journey Section -->
+      <section class="journey">
+        <h2>My Journey in Web Development</h2>
+        <div class="journey-content">
+          <p>
+            I've always been fascinated by technology. Over time, I began
+            exploring web development, learning HTML, CSS, JavaScript, and
+            Python. I strive to build beautiful and functional websites that
+            offer great user experiences.
+          </p>
+          <img
+            src="C:\Users\user\Desktop\shecodes\layouttt.jpg"
+            alt="Web Development"
+            class="journey-img"
+          />
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-content">
+          <div class="skill">
+            <h3>Football Skills</h3>
+            <ul>
+              <li>Teamwork and Communication</li>
+              <li>Agility and Speed</li>
+              <li>Strategic Thinking</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>Web Development Skills</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React ,Python and Django</li>
+              <li>Responsive Web Design</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Me Section -->
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out if you have any questions or want to connect!
+        </p>
+        <a href="elsaalemayehu33@gmail.com" class="contact-btn"> Email Me</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Designed by <span id="name">Elsa Alemayehu </span></p>
+    </footer>
+
+    <script>
+      const toggleBtn = document.getElementById("toggleBtn");
+      const body = document.body;
+
+      toggleBtn.addEventListener("click", () => {
+        body.classList.toggle("dark");
+        body.classList.toggle("light");
+      });
+    </script>
+  </body>
+</html>
