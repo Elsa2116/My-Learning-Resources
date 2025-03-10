@@ -9,7 +9,6 @@ Here are some of the courses I've been working:
 - SheCodes: HTML, CSS, JavaScript basics.
 - MongoDB University: NoSQL database management with MongoDB.
 - Coursera: Various programming and web development courses.
-- Cybersity: Cybersecurity fundamentals.
 - WebDevOpen Bootcamp: Basics of HTML, CSS, and JavaScript for web development.
 - Udemy (Jonas Schmedtmann): Creating responsive real-world websites.
 
