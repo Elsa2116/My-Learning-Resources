@@ -1,0 +1,11 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px; /* Adjust gap size as needed */
+  padding: 20px;
+}
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional for rounded corners */
+}
