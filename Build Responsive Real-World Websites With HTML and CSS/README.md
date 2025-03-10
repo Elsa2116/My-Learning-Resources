@@ -10,6 +10,7 @@ This repository showcases various projects that demonstrate my growing skills in
 ### What I’m Learning
 
  **HTML**: Structuring web content effectively.
+ 
  **CSS**: Styling and layout techniques to create visually appealing designs.
  **Responsive Design**: Implementing media queries and flexible layouts to ensure a seamless user experience across different devices.
 
