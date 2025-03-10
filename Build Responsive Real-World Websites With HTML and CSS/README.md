@@ -42,9 +42,9 @@ Through this course, I am acquiring essential skills and knowledge that will ena
 
 As I progress through the course, I will be working on various projects that showcase my skills and understanding of these topics. Each project will demonstrate my ability to create responsive websites that are not only functional but also visually appealing.
 
-Feel free to explore my projects, provide feedback, or contribute. I'm excited to share my progress and learn from the community!
+
 
 Thank you for visiting my repository!
 
-r
+
 
