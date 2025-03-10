@@ -5,7 +5,6 @@ This repository covers the essential concepts of CSS (Cascading Style Sheets) fo
 - **Basic Syntax**: Understanding selectors, properties, and values.
 - **Box Model**: Learning about margins, borders, padding, and content.
 - **Positioning,Spacing And Colors**: Exploring static, relative, absolute, and fixed positioning.
-- **Float,Flexbox And Grid**: Mastering modern layout techniques for responsive design.
 - **Styling Text**: Customizing fonts, colors, and text alignment.
 - **Responsive Design**: Implementing media queries for different screen sizes.
 
