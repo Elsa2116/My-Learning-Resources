@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerging Technologies</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1f1c2c, #928DAB);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .explore-button {
+            background: #00bcd4;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+            box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+        }
+        .explore-button:hover {
+            background: #0097a7;
+        }
+        hr {
+            margin: 30px 0;
+            border: 1px solid white;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            border: 3px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the World of Emerging Technologies!</h1>
+        <p>
+            We're thrilled to have you here! Join us on an exciting journey through the groundbreaking innovations that are transforming our lives and shaping the future.
+        </p>
+        <img src="https://www.techwalla.com/13720362/what-are-emerging-technologies" alt="Emerging Technologies">
+        <hr>
+        <h2>We want to hear from you!</h2>
+        <p>
+            What technology gets you excited? Is it Artificial Intelligence, Blockchain, or maybe Quantum Computing? Click the button below and share your thoughts!
+        </p>
+        <button class="explore-button" onclick="askTechnology()">Tell Us</button>
+    </div>
+    <script>
+        function askTechnology() {
+            let technology = prompt("Hey there! What's your favorite emerging technology? (e.g., AI, Blockchain, Quantum Computing)");
+            if (technology) {
+                alert("That's fantastic! " + technology + " is indeed a game changer!");
+            } else {
+                alert("No worries! Every technology has its own charm and potential!");
+            }
+        }
+    </script>
+</body>
+</html>
