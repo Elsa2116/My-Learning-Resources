@@ -8,4 +8,4 @@ and intermediate learners enhance their coding skills.
 
 ## Technologies Used
 
-- **Python 3.x**: The programming language used for implementations.
+- **Python 3: The programming language used for implementations.
