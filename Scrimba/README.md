@@ -13,11 +13,7 @@ Tailwind CSS is a utility-first framework that allows me to build modern, respon
 ✅ Faster styling workflow  
 ✅ Mobile-first design  
 ✅ Easy dark mode integration  
-
-## 📌 My Tailwind Projects  
-- **Project 1:** Responsive Landing Page  
-- **Project 2:** Styled Card Components  
-- **Project 3:** Interactive Dashboard UI  
+  
 
 ## 💡 Learning Resources  
 - [Scrimba Tailwind CSS Course](https://scrimba.com/)  
