@@ -1,13 +1,17 @@
 My Learning Resources
+
 I am actively enhancing my programming skills through various online platforms and courses. Below is a list of the courses I have been working on and the areas I am focusing on.
 
 Courses I’m Working On
-1. Mega: Python for Data Structures and Algorithms (DSA)
+
+1. Mega: Python for Data Structures and Algorithms (DSA
+   
 Learning the fundamentals of Python and applying them to solve complex problems.
 
 Focusing on data structures and algorithms to improve my problem-solving skills.
 
 2. Evangadi: HTML, CSS, JavaScript, React, Express, and Other Frameworks
+   
 Gaining proficiency in web development technologies like HTML, CSS, and JavaScript.
 
 Diving into React for building dynamic UIs and Express for back-end web development.
@@ -52,23 +56,36 @@ MDN Web Docs: HTML
 
 MDN Web Docs: CSS
 
-Flexbox Froggy
+Flexbox Froggy - An interactive game to learn Flexbox.
 
-CSS Grid Garden
+CSS Grid Garden - An interactive game to learn CSS Grid.
 
 Responsive Web Design Basics
 
 Git and GitHub Basics
 
-Tailwind CSS
+Tailwind CSS - A utility-first CSS framework.
 
-MongoDB University
+MongoDB University - Learn MongoDB for NoSQL database management.
 
-Scrimba: Tailwind CSS
+Scrimba: Tailwind CSS - Interactive learning for Tailwind CSS.
 
+Conclusion
 This README reflects my journey and growth as a web developer. It serves as a guide to track the courses I have completed and the skills I have gained.
 
 Thank you for visiting my work!
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
