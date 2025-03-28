@@ -13,7 +13,6 @@ Through this course, I am acquiring essential skills and knowledge that will ena
    Key Resources:
 
 MDN Web Docs: HTML
-
 HTML5 Doctor
 
 2. **CSS Fundamentals**
