@@ -58,10 +58,6 @@ I am actively enhancing my programming skills through various online platforms a
 
 •   [Scrimba: Tailwind CSS](https://scrimba.com/learn/tailwind) - Interactive learning for Tailwind CSS.
 
-## Next Steps
-
-•   Complete the React module in the Evangadi course.
-•   Start building a personal portfolio website using Tailwind CSS.
 
 ## Conclusion
 
