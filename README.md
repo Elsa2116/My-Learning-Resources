@@ -45,11 +45,17 @@ I am actively enhancing my programming skills through various online platforms a
 ## Additional Resources
 
 •   [MDN Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
 •   [MDN Web Docs: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 •   [Flexbox Froggy](https://flexboxfroggy.com/) - An interactive game to learn Flexbox.
+
 •   [CSS Grid Garden](https://cssgridgarden.com/) - An interactive game to learn CSS Grid.
+
 •   [Git and GitHub Basics](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources)
+
 •   [MongoDB University](https://www.mongodb.com/university) - Learn MongoDB for NoSQL database management.
+
 •   [Scrimba: Tailwind CSS](https://scrimba.com/learn/tailwind) - Interactive learning for Tailwind CSS.
 
 ## Next Steps
