@@ -1,5 +1,5 @@
 My Learning Resources
-I am actively enhancing my programming skills through various online platforms and courses. Below is a list of courses I have been working on and the areas I am focusing on.
+I am actively enhancing my programming skills through various online platforms and courses. Below is a list of the courses I have been working on and the areas I am focusing on.
 
 Courses I’m Working On
 1. Mega: Python for Data Structures and Algorithms (DSA)
@@ -42,8 +42,8 @@ Building responsive websites with HTML, CSS, and JavaScript.
 
 Mastering advanced techniques for creating real-world websites with a focus on user experience.
 
-I am committed to continuous learning and skill enhancement!
-I’m always looking for new ways to improve my knowledge and build better, more efficient web applications.
+Continuous Learning and Skill Enhancement
+I am committed to continuous learning and skill enhancement. I’m always looking for new ways to improve my knowledge and build better, more efficient web applications.
 
 Additional Resources
 For further learning and reference, you can explore the following resources:
@@ -66,8 +66,7 @@ MongoDB University
 
 Scrimba: Tailwind CSS
 
-This README is a reflection of my journey and growth as a web developer. It serves as a guide to track the courses I have completed and the skills I have gained. 
-
+This README reflects my journey and growth as a web developer. It serves as a guide to track the courses I have completed and the skills I have gained.
 
 Thank you for visiting my work!
 
