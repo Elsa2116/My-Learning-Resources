@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loopstudios Clone (Tailwind)</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body class="bg-black text-white font-sans">
+    <div class="min-h-screen flex flex-col">
+      <header id="header" class="relative h-screen bg-cover bg-center">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div
+          class="container mx-auto relative z-10 flex justify-between items-center w-full max-w-7xl"
+        >
+          <a href="#" class="text-2xl font-bold">loopstudios</a>
+          <button id="menu-button" class="text-white text-3xl">☰</button>
+        </div>
+
+        <div id="menu-overlay" class="menu-overlay">
+          <div
+            class="container mx-auto h-full flex flex-col justify-center items-center"
+          >
+            <button
+              id="close-menu-button"
+              class="absolute top-8 right-8 text-white text-3xl"
+            >
+              &#x2715;
+            </button>
+            <nav class="text-center">
+              <ul class="space-y-8 text-2xl font-bold">
+                <li><a href="#" class="hover:text-gray-300">ABOUT</a></li>
+                <li><a href="#" class="hover:text-gray-300">CAREERS</a></li>
+                <li><a href="#" class="hover:text-gray-300">EVENTS</a></li>
+                <li><a href="#" class="hover:text-gray-300">PRODUCTS</a></li>
+                <li><a href="#" class="hover:text-gray-300">SUPPORT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="bg-black">
+        <section id="about" class="container mx-auto py-12">
+          <!-- Changed from py-20 to py-12 -->
+          <div class="text-center">
+            <h2 class="text-4xl font-bold mb-4">
+              <!-- Changed from mb-8 to mb-4 -->
+              THE LEADER IN INTERACTIVE VR
+            </h2>
+            <p class="text-gray-400 lg:text-lg">
+              Founded in 2011, Loopstudios has been producing world-class
+              virtual reality projects for some of the best companies around the
+              globe. Our award-winning creations have transformed businesses
+              through digital experiences that bind to their brand.
+            </p>
+          </div>
+        </section>
+
+        <section id="creations-heading" class="container mx-auto pt-12 pb-8">
+          <!-- Changed from py-20 -->
+          <div class="flex justify-between items-center mb-12">
+            <h2 class="text-4xl font-bold">OUR CREATIONS</h2>
+            <a
+              href="#"
+              class="bg-white text-black py-2 px-6 rounded-md hover:bg-gray-200"
+            >
+              SEE ALL
+            </a>
+          </div>
+        </section>
+
+        <section
+          id="creations-grid"
+          class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+        >
+          <div
+            class="creation-card relative h-64 bg-cover bg-center rounded-lg overflow-hidden"
+            style="background-image: url('images/OIP.jpg')"
+          >
+            <div
+              class="absolute inset-0 bg-black opacity-20 hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div class="absolute bottom-4 left-4 text-2xl font-bold">
+              DEEP EARTH
+            </div>
+          </div>
+
+          <div
+            class="creation-card relative h-64 bg-cover bg-center rounded-lg overflow-hidden"
+            style="background-image: url('images/OIP.jpg')"
+          >
+            <div
+              class="absolute inset-0 bg-black opacity-20 hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div class="absolute bottom-4 left-4 text-2xl font-bold">
+              NIGHT ARCADE
+            </div>
+          </div>
+
+          <div
+            class="creation-card relative h-64 bg-cover bg-center rounded-lg overflow-hidden"
+            style="background-image: url('images/OIF.jpg')"
+          >
+            <div
+              class="absolute inset-0 bg-black opacity-20 hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div class="absolute bottom-4 left-4 text-2xl font-bold">
+              SOCCER TEAM VR
+            </div>
+          </div>
+
+          <div
+            class="creation-card relative h-64 bg-cover bg-center rounded-lg overflow-hidden"
+            style="background-image: url('images/OIF.jpg')"
+          >
+            <div
+              class="absolute inset-0 bg-black opacity-20 hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div class="absolute bottom-4 left-4 text-2xl font-bold">
+              THE GRID
+            </div>
+          </div>
+
+          <div
+            class="creation-card relative h-64 bg-cover bg-center rounded-lg overflow-hidden"
+            style="background-image: url('images/OIP.jpg')"
+          >
+            <div
+              class="absolute inset-0 bg-black opacity-20 hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div class="absolute bottom-4 left-4 text-2xl font-bold">
+              FROM UP ABOVE VR
+            </div>
+          </div>
+
+          <div
+            class="creation-card relative h-64 bg-cover bg-center rounded-lg overflow-hidden"
+            style="background-image: url('images/OIP.jpg')"
+          >
+            <div
+              class="absolute inset-0 bg-black opacity-20 hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div class="absolute bottom-4 left-4 text-2xl font-bold">
+              POCKET BOREALIS
+            </div>
+          </div>
+
+          <div
+            class="creation-card relative h-64 bg-cover bg-center rounded-lg overflow-hidden"
+            style="background-image: url('images/OIF.jpg')"
+          >
+            <div
+              class="absolute inset-0 bg-black opacity-20 hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div class="absolute bottom-4 left-4 text-2xl font-bold">
+              THE CURIOSITY
+            </div>
+          </div>
+
+          <div
+            class="creation-card relative h-64 bg-cover bg-center rounded-lg overflow-hidden"
+            style="background-image: url('images/OIF.jpg')"
+          >
+            <div
+              class="absolute inset-0 bg-black opacity-20 hover:opacity-0 transition-opacity duration-300"
+            ></div>
+            <div class="absolute bottom-4 left-4 text-2xl font-bold">
+              MAKE IT FISHEYE
+            </div>
+          </div>
+        </section>
+
+        <footer id="footer" class="bg-gray-900 py-12">
+          <div
+            class="container mx-auto flex flex-col items-center md:flex-row md:justify-between"
+          >
+            <div class="text-center md:text-left mb-8 md:mb-0">
+              <a href="#" class="text-2xl font-bold block mb-4">loopstudios</a>
+              <nav>
+                <ul
+                  class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 lg:space-x-12"
+                >
+                  <li><a href="#" class="hover:text-gray-300">About</a></li>
+                  <li><a href="#" class="hover:text-gray-300">Careers</a></li>
+                  <li><a href="#" class="hover:text-gray-300">Events</a></li>
+                  <li><a href="#" class="hover:text-gray-300">Products</a></li>
+                  <li><a href="#" class="hover:text-gray-300">Support</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="text-center md:text-right">
+              <div class="flex justify-center md:justify-end space-x-6 mb-4">
+                <a href="#" class="hover:text-gray-300"> Facebook </a>
+                <a href="#" class="hover:text-gray-300"> Twitter </a>
+                <a href="#" class="hover:text-gray-300"> Pinterest </a>
+                <a href="#" class="hover:text-gray-300"> Instagram </a>
+              </div>
+              <p class="text-gray-400 text-sm">
+                &copy; 2022 Loopstudios. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

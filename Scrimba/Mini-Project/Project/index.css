@@ -1,0 +1,42 @@
+/* Custom CSS for Loopstudios Clone  */
+
+.menu-overlay {
+  /* Positioning for the menu overlay  */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Dark overlay  */
+  z-index: 10;
+  /* Ensure it's on top  */
+  display: none;
+  /* Initially hidden  */
+  opacity: 0;
+  /* Initially transparent */
+  transition: opacity 0.3s ease-in-out;
+  /* Smooth transition */
+}
+
+.menu-overlay.active {
+  display: block;
+  /* Show when active  */
+  opacity: 1;
+  /* Fully visible */
+}
+
+#header {
+  background-image: url("path/to/your/header-image.jpg");
+  /* Background image set here  */
+}
+
+.creation-card:hover {
+  /* Example: Scale up on hover */
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+#creations-grid {
+  padding-bottom: 20px; /* Add padding below the grid */
+}
