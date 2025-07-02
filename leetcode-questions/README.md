@@ -10,11 +10,11 @@ This repository contains solutions to LeetCode problems categorized by difficult
 
 ## Technologies Used
 
-- **Python 3.x**
+- **Python 3**
 - **Java**
 - **C++**
 - **JavaScript**
-- **Git & GitHub**
+
 
 
    
